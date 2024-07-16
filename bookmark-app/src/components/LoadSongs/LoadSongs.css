@@ -1,0 +1,74 @@
+.LoadSong-Container
+{
+    display: flex;
+
+    width: 98%;
+    height: 80vh;
+    
+    font-family: Arial, sans-serif
+}
+
+.form-container
+{
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#songForm
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4px;  
+}
+
+.form-group
+{
+    display: flex;
+    margin-bottom: 10px;
+    color: #ccc;
+    background-color:rgb(54, 54, 54);
+    width: 90%;
+    padding: 8px;
+    border-radius: 5px;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.preview
+{
+    display: flex;
+    text-align: start;
+}
+
+.preview img
+{
+    border-radius: 10px;
+    border: 1px solid skyblue;
+}
+
+.form-group label 
+{
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.form-group input 
+{
+   
+    width: 64%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.btn
+{
+    color: #ccc;
+    background-color:rgb(54, 54, 54); 
+    border: 1px solid black;
+    padding: 8px;
+}
